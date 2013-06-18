@@ -18,7 +18,7 @@ public class SingletonFactoryMethod {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        throw new RuntimeException("Can not create clone of SingletonDoubleCheck class");
+        throw new RuntimeException("Can not create clone of singleton class");
     }
 
     private Object readResolve(){
