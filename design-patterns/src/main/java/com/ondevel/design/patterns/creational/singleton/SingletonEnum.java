@@ -9,7 +9,11 @@ package com.ondevel.design.patterns.creational.singleton;
 public enum SingletonEnum {
     INSTANCE;
 
-    public SingletonEnum getInstance() {
+    public static SingletonEnum getInstance() {
         return INSTANCE;
+    }
+
+    public void consoleWrite(){
+        System.out.println("SingletonEnum message.");
     }
 }
